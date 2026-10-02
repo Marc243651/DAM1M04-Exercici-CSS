@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*tipo grafia de letra*/
+* {
+    font-family: 'Roboto', sans-serif;
+}
+/*index*/
+/* Pseudoelement ::before -> Añade un símbolo antes de cada título h2 */
+.verd::before {
+    content: "❖ ";
+    color: blue;
+}
+.verd{
+    color: green;
+}
+
+/* Pseudoelement ::after -> Añade un texto después del título h1 */
+.blau::after {
+    content: " (CV)";
+    font-size: 0.9em;
+    color: gray;
+}
+.blau{
+    color: blue;
+}
+.p{
+    color: aqua;
+}
+
+#titol {
+  font-size: 28px;
+  text-decoration: underline;
+}
+#desordenada > li {
+    color: blue;
+}
+ol li:last-child{
+    color: orange;
+}
+ol {
+    color: purple;
+}
+a {
+    color: blue;
+    text-decoration: none; 
+}
+
+a:hover {
+    color: purple; 
+    text-decoration: underline;
+}
+/* Color de fondo sencillo para el footer por ID */
+#peu-pagina {
+    background-color: rgb(196, 194, 194);
+    padding: 10px;
+}
+
+/* Enlaces del footer de color azul */
+#peu-pagina a {
+    color: blue;
+}
+
+/*PROJECTES*/
+.naranga{
+    color: orange;
+}
+.lila{
+    color: purple;
+}
+.texto{
+    color: gray;
+}
+
+#titol {
+  font-size: 28px;
+  text-decoration: underline;
+}
+ul li:first-child {
+    color: blue;
+}
+ul{
+    color: aqua;
+}
+#ordenada > li{
+    color: red;
+}
+
+a {
+    color: blue;
+    text-decoration: none; 
+}
+
+a:hover {
+    color: purple; 
+    text-decoration: underline;
+}
+/* Color de fondo sencillo para el footer por ID */
+#peu-pagina {
+    background-color: rgb(196, 194, 194);
+    padding: 10px;
+}
+
+/* Enlaces del footer de color azul */
+#peu-pagina a {
+    color: green;
+}
+/*ESTUDIS*/
+.pink{
+    color: pink;
+}
+.brown{
+    color: brown;
+}
+.parrafo{
+    color: yellowgreen;
+}
+
+#titol {
+  font-size: 28px;
+  text-decoration: underline;
+}
+#desor > li {
+    color: rgb(0, 255, 234);
+}
+#orde > li{
+    color: rgb(255, 0, 212);
+}
+
+a {
+    color: blue;
+    text-decoration: none; 
+}
+
+a:hover {
+    color: purple; 
+    text-decoration: underline;
+}
+/* Color de fondo sencillo para el footer por ID */
+#peu-pagina {
+    background-color: rgb(196, 194, 194);
+    padding: 10px;
+}
+
+/* Enlaces del footer de color azul */
+#peu-pagina a {
+    color: green;
+}
